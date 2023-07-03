@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+.main {
+  margin-left: 200px; 
+  margin-right: 300px; /* Same width as the sidebar + left position in px */
+  font-size: 24px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+.sidenav {
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2196F3;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+  <div class="sidenav">
+  <a href="xuechengmath.github.io/index.html">About</a>
+  <a href="xuechengmath.github.io/research.html">Research</a>
+  <a href="xuechengmath.github.io/teaching.html">Teaching</a>
+</div>
+
+
+<div class="main">
+
+<h4> Teaching at Tsinghua University:</h4>
+
+<h5>Forthcoming Courses:</h5>
+  <ul>
+  <li>2023 Fall: Topics in Analysis and PDEs</li>
+    <li>2023 Fall:  Linear Algebra</li>
+</ul> 
+ <hr class="solid">
+<h5>Past Courses:</h5>
+  <ul>
+  <li>2023 Spring: Topics in Analysis and PDEs</li>
+  <li>2022 Fall: Linear Algebra</li>
+   <li>2021 Fall: Linear Algebra</li>
+    <li>2020 Fall: Linear Algebra</li>
+      <li>2019 Fall: Analysis III</li>
+      <li>2018 Fall: Well-posedness and the long time behavior of nonlinear PDEs</li>
+      <li>2018 Fall: Calculus B(1)</li>
+       <li>2018 Spring: Applied analysis</li>
+</ul> 
+ 
+<div>
+</body>
+</html> 
